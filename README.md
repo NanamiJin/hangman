@@ -1,6 +1,12 @@
-# Welcome to Streamlit!
+# 三国志真戦名将ガチャシミュレーター仕様_ver.1.0について
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+・5.6%の確率で星5武将を獲得する
+・36%の確率で星4武将を獲得する
+・58.4%の確率で星4武将を獲得する
+・5回登用するたびに、星4武将または星5武将を必ず獲得する
+・登用すると30回以内に必ず星5武将を獲得できる。星5武将を獲得すると回数のカウントはリセットされ、そこからまた更に30以内に星5武将を獲得できる
+・各種登用の確定枠は、別々に統計している
+・シリーズ2までの各武将の登用出率が公式サイトに従い、設定されている
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+・リセットボタンを押すと、今までのガチャデータをリセットする（もう一回登用ボタンを押す、画面に反映される）
+・ガチャシミュレーター終了後に獲得した星5武将のcsvデータが./outputに出力される
