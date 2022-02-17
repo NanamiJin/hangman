@@ -27,6 +27,8 @@ import streamlit as st
 """
 
 with st.echo(code_location='below'):
+    one_time_gacha_button = st.button('1回登用')
+    five_times_gacha_button = st.button('5回登用')
     total_points = st.slider("Number of points in spiral", 1, 8000, 2000)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 
