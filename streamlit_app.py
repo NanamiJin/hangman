@@ -1,3 +1,4 @@
+from cgitb import reset
 import streamlit as st
 
 """
@@ -25,5 +26,8 @@ import streamlit as st
 with st.echo(code_location='below'):
     one_time_gacha_button = st.button('1回登用')
     five_times_gacha_button = st.button('5回登用')
+    reset_button = st.button('リセット')
+    
+    
 
 
